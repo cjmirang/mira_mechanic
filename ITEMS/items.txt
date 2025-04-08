@@ -1,25 +1,25 @@
-	["screwdriver"] = {
+["screwdriver"] = {
 		label = "Screwdriver",
 		weight = 1,
 		stack = false,
-	},
-	["fixbox"] = {
+},
+["fixbox"] = {
 		label = "Fixbox",
 		weight = 1,
 		stack = true,
-	},
-	["sponge"] = {
+},
+["sponge"] = {
 		label = "sponge",
 		weight = 1,
 		stack = true,
-	},
-	["vehicledoor"] = {
+},
+["vehicledoor"] = {
 		label = "vehicledoor",
 		weight = 1,
 		stack = true,
-	},
-	["vehiclewheel"] = {
+},
+["vehiclewheel"] = {
 		label = "vehiclewheel",
 		weight = 1,
 		stack = true,
-	},
+},

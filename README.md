@@ -27,31 +27,31 @@ A simple, extensible script for repairing vehicles outside (or inside) a mechani
 
 3. Add items to your ox_inventory\data\items.lua file
 ```lua
-	["screwdriver"] = {
+["screwdriver"] = {
 		label = "Screwdriver",
 		weight = 1,
 		stack = false,
-	},
-	["fixbox"] = {
+},
+["fixbox"] = {
 		label = "Fixbox",
 		weight = 1,
 		stack = true,
-	},
-	["sponge"] = {
+},
+["sponge"] = {
 		label = "sponge",
 		weight = 1,
 		stack = true,
-	},
-	["vehicledoor"] = {
+},
+["vehicledoor"] = {
 		label = "vehicledoor",
 		weight = 1,
 		stack = true,
-	},
-	["vehiclewheel"] = {
+},
+["vehiclewheel"] = {
 		label = "vehiclewheel",
 		weight = 1,
 		stack = true,
-	},
+},
 ```
 
 4. Add items images to your ox_inventory\web\images folder from mira_mechanic\ITEMS\images
