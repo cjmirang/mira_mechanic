@@ -10,8 +10,11 @@ A simple, extensible script for repairing vehicles outside (or inside) a mechani
 - Each mechanic job can have its own defined workshop location
 
 ## Dependencies
-- [ox_inventory](https://github.com/overextended/ox_inventory)
 - [ox_lib](https://github.com/overextended/ox_lib)
+- [ox_inventory](https://github.com/overextended/ox_inventory)
+- [ox_target](https://github.com/overextended/ox_target)
+- [es_extended](https://github.com/esx-framework/esx_core/tree/main/%5Bcore%5D/es_extended)
+
 
 ## ⚙️ Installation
 
