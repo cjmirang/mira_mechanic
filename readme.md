@@ -74,8 +74,8 @@ Open `config.lua` to customize:
 DM me directly on discord: mira0423
 
 ## Credits
-- Author: Dzejkop
-- Version: 1.0.1
+- Author: mira0423
+- Version: 1.0.0
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This script is licensed under the MIT License - see the LICENSE file for details.
