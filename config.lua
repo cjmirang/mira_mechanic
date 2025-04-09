@@ -1,7 +1,5 @@
 Config = {}
 
-Config.Language = 'en' -- Options - 'cs', 'en'
-
 Config.ItemNames = {
     ['fixtool'] = 'screwdriver',
     ['fixbox'] = 'fixbox',
