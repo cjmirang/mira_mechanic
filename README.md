@@ -1,7 +1,7 @@
 # 🚗 mira_mechanic
 
 ## Description
-A simple, extensible script for repairing vehicles outside (or inside) a mechanic shop. Designed for servers using ESX and ox scripts.
+A simple, extensible script for repairing vehicles inside (or outside) a mechanic shop. Designed for servers using ESX and ox scripts.
 
 ## 🔧 Features
 - Repair conditions based on damage level
