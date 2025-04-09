@@ -20,7 +20,7 @@ A simple, extensible script for repairing vehicles inside (or outside) a mechani
 
 1. Download or clone this repository into your server's resources folder:
     ```bash
-    git clone https://github.com/yourname/mira_mechanic.git
+    git clone https://github.com/cjmirang/mira_mechanic.git
     ```
 
 2. Add it to your `server.cfg`:
