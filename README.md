@@ -69,9 +69,12 @@ A simple, extensible script for repairing vehicles inside (or outside) a mechani
 
 Open `config.lua` to customize:
 
-- Language selection:
   ```lua
-  Config.Language = 'en' -- Options: 'en', 'cs'
+  Config.ItemNames - set item names u have set in ox_inventory
+  Config.Repair/Washtime - set progressbar lenght
+  Config.Locales - any language u want
+```
+
 
 ## Support
 DM me directly on discord: mira0423
