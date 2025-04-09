@@ -70,9 +70,10 @@ A simple, extensible script for repairing vehicles inside (or outside) a mechani
 Open `config.lua` to customize:
 
   ```lua
-  Config.ItemNames - set item names u have set in ox_inventory
-  Config.Repair/Washtime - set progressbar lenght
-  Config.Locales - any language u want
+  Config.ItemNames -- set item names u have set in ox_inventory
+  Config.RepairTime -- set progressbar lenght for repair
+  Config.WashTime -- set progressbar lenght for wash
+  Config.Locales -- set any language u want
 ```
 
 
