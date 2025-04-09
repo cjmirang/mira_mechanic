@@ -40,5 +40,3 @@ Config.Locales = {
     ['progress-repair'] = 'Repairing vehicle',
     ['progress-wash'] = 'Washing vehicle'   
 }
-
--- Config.Locales['X']
