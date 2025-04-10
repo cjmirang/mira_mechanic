@@ -218,8 +218,8 @@ function repairVehicle()
             SetVehicleEngineHealth(vehicle, 1000.0)
             SetVehicleDeformationFixed(vehicle)
             SetVehicleUndriveable(vehicle, false)
-            ClearPedTasks(playerPed)
-
+            StopAnimTask(cache.ped, "dict", "animname", 1.0)
+            
             if fuelLevel then
                 SetVehicleFuelLevel(vehicle, fuelLevel)
                 Entity(vehicle).state:set('fuel', fuelLevel, true)
@@ -266,12 +266,12 @@ RegisterNetEvent('mira_mechanic:RepairVehicle', function()
     end
 
     if not canRepair then
-        for k, v in pairs(GetGamePool('CVehicle')) do
-            if #(GetEntityCoords(v) - coords) < 30 then
-                if mechanicveh[GetEntityModel(v)] then
-                    canRepair = true
-                    break
-                end
+        local nearbyVehicles = lib.getNearbyVehicles(coords, 30.0)
+    
+        for _, vehicle in ipairs(nearbyVehicles) do
+            if mechanicveh[GetEntityModel(vehicle.entity)] then
+                canRepair = true
+                break
             end
         end
     end
@@ -318,7 +318,7 @@ function washVehicle()
             anim         = { scenario = 'WORLD_HUMAN_MAID_CLEAN' },
         }) then
             SetVehicleDirtLevel(vehicle, 0.0)
-            ClearPedTasks(playerPed)
+            StopAnimTask(cache.ped, "dict", "animname", 1.0)
         end
     else
         lib.notify({

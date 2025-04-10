@@ -38,5 +38,5 @@ Config.Locales = {
     ['needsponge'] = 'To repair the vehicle, you need at least a sponge',
     -- Progressbar
     ['progress-repair'] = 'Repairing vehicle',
-    ['progress-wash'] = 'Washing vehicle'   
+    ['progress-wash'] = 'Washing vehicle'
 }
