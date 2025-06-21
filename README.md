@@ -1,5 +1,5 @@
-# 🚗 mira_mechanic
-
+# 🚗 mira_mechanic WIP
+NOT WORKING PROPERLY
 ## Description
 A simple, extensible script for repairing vehicles inside (or outside) a mechanic shop. Designed for servers using ESX and ox scripts.
 
